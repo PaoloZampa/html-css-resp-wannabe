@@ -132,7 +132,7 @@ img {
 @media screen and (max-width: 768px) {
 
     .container {
-        width: 100vw;
+        width: 100%;
         max-width: 768px;
     }
 
@@ -179,11 +179,15 @@ img {
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     .container {
-        width: 100vw;
+        width: 100%;
         max-width: 1200px;
+    }
+
+    body{
+        /* overflow-x: hidden; */
     }
 
 }
